@@ -8,6 +8,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
 
 	<!-- FONT AWESOME -->
@@ -30,92 +31,117 @@
 		<div class="container">
 			<div class="header-flex">
 				<img src="logo_m.png" alt="" class="header-logo">
+				<div class="based">
+					<p>Présentement basé à <span>Québec</span></p>
+				</div>
 				<ul class="nav-bar">
-					<li><a href="">Home</a></li>
-					<li><a href="">About</a></li>
-					<li><a href="">Work</a></li>
+					<li><a href="">Projets</a></li>
+					<li><a href="">À Propos</a></li>
 					<li><a href="">Contact</a></li>
 				</ul>
-				<button class="burger-btn"><i class="fa-solid fa-bars"></i></button>
 			</div>
 		</div>
 	</header>
-	<section class="side-menu">
-		<div class="side-menu-logo"></div>
-		<ul class="burger-menu">
-			<li><a href=""><i class="fa-solid fa-house"></i>Home</a></li>
-			<li><a href=""><i class="fa-solid fa-briefcase"></i>Work</a></li>
-			<li><a href=""><i class="fa-solid fa-address-card"></i>About</a></li>
-			<li><a href="">Skils</a></li>
-		</ul>
-	</section>
 
 	<section class="banner">
 		<div class="container">
-		<div class="banner-box">
-			<h3>Hello!</h3>
-			<h2>I'm Michael</h2>
-			<h4 class="ml11">
-				<span class="text-wrapper">
-    				<span class="line line1"></span>
-    				<span class="letters">Newly graduated frontend developer</span>
-    			</span>
+			<div class="banner-flex">
+				<div class="banner-left">
+					<div class="banner-left-content">
+						<p>Nouvellement diplômé en Design web, je design et programme des sites web Statique et Dynamique .</p>
+						<a class="btn" href="#">Mes projets</a>
+						<div class="arrow"></div>
+					</div>
+					<h1>Mickael</h1>
+				</div>
+				<div id="myDiv" class="banner-right">
+					<img class="banimg" src="bannerimg3.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
 
-			</h4>
-			<a href="" class="btn">Download CV</a>
+	<section class="project-title">
+		<div class="container">
+			<h2>Mes <span>projets</span></h2>
+		</div>
+	</section>
+
+	<section class="project">
+		<div class="container">
+			<div class="project-card project-1">
+				<img src="lcr-bg.png" alt="">
+				<div class="project-description">
+					<div class="project-description-content">
+						<h3>Les cuisines Rénove <a href="./lcr"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+						<p>Site web Dynamique pour une etreprise d'armoire de cuisine et salle de bain.</p>
+					</div>
+				</div>
+			</div>
+			<div class="project-card project-2">
+				<img src="trophop-bg.png" alt="">
+				<div class="project-description">
+					<div class="project-description-content">
+						<h3>Les cuisines Rénove <a href="./trophop"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+						<p>Site web Dynamique pour une etreprise d'armoire de cuisine et salle de bain.</p>
+					</div>
+				</div>
+			</div>
+			<div class="project-card project-3">
+				<img src="cake-bg.png" alt="">
+				<div class="project-description">
+					<div class="project-description-content">
+						<h3>Les cuisines Rénove <a href="./cake"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+						<p>Site web Dynamique pour une etreprise d'armoire de cuisine et salle de bain.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	
-		</div>
-		</div>
-	</section>
-
-	<section class="work">
+	<section class="about">
 		<div class="container">
-			<div class="section-title">
-				<h2>Projects.</h2>
-			</div>
-			<div class="project-1">
-				<a href="./lcr" class="slide-button btn1">View project</a>
-				<div class="projet-title">
-					<div class="project-logo"></div>
-					<h2>Les Cuisnes Rénove</h2>
-					<p> Made with: html, css, JavaScript, Jquery</p>
+			<div class="about-flex">
+				<div class="about-left">
+					<h2 class="about-title">À propos</h2>
 				</div>
-			</div>
-			
-			<div class="project-flex">
-				<div class="project-2">
-					<div class="slide-button btn2">
-					<a href="" class="project-btn">View project</a>
-				</div>
-				</div>
-				<div class="project-3">
-					<div class="slide-button btn3">
-					<a href="" class="project-btn">View project</a>
-				</div>
+				<h2 class="about-responsive">À propos</h2>
+				<div class="about-right">
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, fugit. Ipsam totam cupiditate consectetur necessitatibus officia eligendi, quasi delectus cum. Possimus inventore consectetur reiciendis repellendus dolor quisquam voluptate eos, a? <br><html></p>
 				</div>
 			</div>
 		</div>
 	</section>
+	
 	<section class="contact">
+		<hr class="contact-line">
 		<div class="container">
-			<div class="section-title">
-			<h2>Contact.</h2>
-			</div>
+			
 			<div class="contact-flex">
 				<div class="contact-left">
-					<h4>Hello!</h4>
-					<h3>I'm Michael</h3>
-					<p>Newly graduated frontend developer. </p>
-					<ul class="socials">
-						<li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-						<li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
-						<li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
-					</ul>
+					<h2>Tu veux travailler avec moi? </h2>
 				</div>
-				<div class="contact-right"></div>
+				<div class="contact-right">
+					<h4>Écrit moi!</h4>
+					<a href="">michael.legare@gmail.com</a>
+					<div class="socials">
+						<h4>Follow</h4>
+						<ul class="socials-liste">
+							<li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+							<li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+							<li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
+	<footer>
+		<p> ©2023 Michael Légaré</p>
+	</footer>
+
+
 
 
 
