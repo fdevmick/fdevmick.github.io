@@ -50,10 +50,10 @@ a{
 h1{
 	color: #141414;
 	letter-spacing: 6px;
-	font-size: 230px;
-	font-weight: 500;
+	font-size: 260px;
+	font-weight: 400;
 	line-height: 1;
-	transform: translateY(50px);
+	transform: translateY(25px);
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -77,6 +77,8 @@ h4{
 i{
 	font-size: 30px;
 }
+
+
 
 
 .container{
@@ -122,6 +124,10 @@ i{
     height: 100%;
     width: 120px;
     transition: all 0.2s linear 0s;
+  }
+
+  header{
+  	height: 100px;
   }
 
 
@@ -189,6 +195,10 @@ i{
 	font-weight: 400;
 }
 
+.banner{
+	height: auto;
+}
+
 
 .banner-flex{
 	display: flex;
@@ -232,7 +242,7 @@ i{
 .banner-left p{
 	font-size: 20px;
 	margin-bottom: 30px;
-	font-weight: 300;
+	font-weight: 500;
 }
 
 .banner-right{
@@ -265,7 +275,7 @@ i{
 }
 
 .project-description{
-	display: flex;
+	display: none;
 	align-items: flex-end;
 	padding: 30px;
 	top: 0;
@@ -274,6 +284,10 @@ i{
 	width: 100%;
 	position: absolute;
 	background: linear-gradient(to top, #141414, transparent, transparent, transparent);
+}
+
+.show-description{
+	display: flex;
 }
 
 .project-description-content h3{
@@ -298,6 +312,7 @@ i{
 
 .project-1{
 	z-index: 1;
+	
 }
 
 .project-2{
@@ -336,15 +351,17 @@ i{
 }
 
 .about-title{
-	font-size: 200px;
+	font-size: 220px;
 	position: absolute;
 	right: 150px;
-	bottom: -60px;
+	bottom: -50px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
 }
 
 
 .contact-line{
-	border-width: 2px;
+	opacity: 50%;
 	margin-bottom: 60px;
 }
 
@@ -359,7 +376,9 @@ i{
 }
 
 .contact-left{
-	width: 50%;
+	width: 45%;
+	line-height: 1;
+	text-transform: uppercase;
 }
 
 .contact-right{
@@ -469,6 +488,10 @@ footer p{
 
 	p{
 		font-size: 16px;
+	}
+
+	.banner{
+		height: auto;
 	}
 
 	.banner-right{
